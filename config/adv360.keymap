@@ -76,11 +76,11 @@
 
         layer_CS {
             bindings = <
-&none    &none             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                      &mo 3   &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4
-&none    &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp NUMBER_6                                      &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4
-&kp ESC  &kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp NUMBER_7  &trans  &trans      &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4
-&none    &kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V                               &none       &tog 4                  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4
-&mo 2    &none             &none         &none         &none                       &kp SPACE     &kp V   &kp M       &tog 4  &tog 4  &tog 4          &tog 4  &tog 4  &tog 4  &tog 4  &tog 4
+&none    &none             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                      &mo 3   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &tog 4
+&none    &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                                             &tog 4  &tog 4        &tog 4        &tog 4        &tog 4        &tog 4        &tog 4
+&kp ESC  &kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G         &trans  &trans      &tog 4  &tog 4  &tog 4  &tog 4        &tog 4        &tog 4        &tog 4        &tog 4        &tog 4
+&none    &kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V                               &kp B       &tog 4                  &tog 4        &tog 4        &tog 4        &tog 4        &tog 4        &tog 4
+&mo 2    &none             &none         &none         &none                       &kp SPACE     &kp V   &kp M       &tog 4  &tog 4  &tog 4                &tog 4        &tog 4        &tog 4        &tog 4        &tog 4
             >;
         };
     };
