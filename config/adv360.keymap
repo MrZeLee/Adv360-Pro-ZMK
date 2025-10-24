@@ -32,26 +32,6 @@
             bindings = <&kp>, <&kp>;
         };
     };
-    extra1 { 
-      display-name = "Red";    
-      status = "reserved";
-    };
-
-    extra2 { 
-      display-name = "Purple";    
-      status = "reserved";
-    };
-
-    extra3 { 
-      display-name = "Cyan";    
-      status = "reserved";
-    };
-
-    extra4 { 
-      display-name = "Yellow";    
-      status = "reserved";
-    };
-  };
 
     keymap {
         compatible = "zmk,keymap";
@@ -109,6 +89,25 @@
 &none    &kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V                               &kp B       &tog 4                  &tog 4        &tog 4        &tog 4        &tog 4        &tog 4        &tog 4
 &mo 2    &none             &none         &none         &none                       &kp SPACE     &kp V   &kp M       &tog 4  &tog 4  &tog 4                &tog 4        &tog 4        &tog 4        &tog 4        &tog 4
             >;
+        };
+        extra1 { 
+          display-name = "Red";    
+          status = "reserved";
+        };
+
+        extra2 { 
+          display-name = "Purple";    
+          status = "reserved";
+        };
+
+        extra3 { 
+          display-name = "Cyan";    
+          status = "reserved";
+        };
+
+        extra4 { 
+          display-name = "Yellow";    
+          status = "reserved";
         };
     };
 };
